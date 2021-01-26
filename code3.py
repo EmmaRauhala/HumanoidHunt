@@ -7,6 +7,8 @@ data = csv.reader(data, delimiter=',', quotechar='|')
 matrix = np.ones((200,200))
 endpoints = []
 
+# whatif changes
+
 for line in data:
     x = int(line[0])
     print(x)
