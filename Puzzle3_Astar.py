@@ -93,7 +93,7 @@ predecessors[start]=(None,None)
 # While the queue is non-empty do:
 while not Q.empty():
 
-    # take out the search node with the highest priority = lowest estimated distance
+    # Take out the search node with the highest priority = lowest estimated distance
     curr = Q.get()[1]
 
     # Only if the estimated distance (lower bound) is shorter than the current best path to goal state do:
