@@ -86,7 +86,7 @@ predecessors = {} # dict(tuple(x,y) --> tuple(action,predecessors))
 pathlength = {} # dict(tuple(x,y) --> int length)
 
 # A priority queue to guide the search. Priority of each entry (search node) is the 
-# estimated distance to a goal state as shown below
+# estimated distance to a goal state as returned by est_dist
 Q = PriorityQueue() # PriorityQueue((est_dist(loc),loc)) (lowest values retrieved first)
 
 # Variables to keep up with the best path to goal state found
